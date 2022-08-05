@@ -117,6 +117,15 @@
     height: 40px;
     cursor: pointer;
     display: block;
+    margin-right: 12px;
+}
+
+.theme-btn{
+    margin-right: 30px;
+}
+
+.scroll.active{
+    margin-right: 15px;
 }
 
 /* Home Section  */
