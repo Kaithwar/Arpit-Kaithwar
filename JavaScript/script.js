@@ -81,10 +81,10 @@ navItem.forEach((navItem) =>{
 
 // Scroll Reveal Animation
 ScrollReveal({
-    reset: true,
+    reset: false,
     distance: '60px',
-    duration: 2000,
-    delay: 100
+    duration: 1500,
+    delay: 50
 });
 
 ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', { delay: 500, origin: 'left' });
@@ -95,4 +95,4 @@ ScrollReveal().reveal('.home-img, .about-img', { delay: 500, origin: 'bottom' })
 ScrollReveal().reveal('.about .description, .contact-right', { delay: 600, origin: 'right' });
 ScrollReveal().reveal('.skills-description, .contact-left h2', { delay: 700, origin: 'left'});
 ScrollReveal().reveal('.por-card, .education, .work .img-card', { delay: 800, origin: 'bottom', interval:200 });
-ScrollReveal().reveal('footer .group', { delay: 500, origin: 'top', interval:200 });
+// ScrollReveal().reveal('footer .group', { delay: 500, origin: 'top', interval:200 });
