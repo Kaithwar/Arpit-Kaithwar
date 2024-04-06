@@ -339,7 +339,11 @@ header.sticky .nav-bar{
     font-weight: 700;
     transform: translateY(-80px);
 }
-
+.heading{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 30px;
+}
 .section-title-02::before{
     content: '';
     position: absolute;
@@ -632,6 +636,10 @@ header.sticky .nav-bar{
 .work-list a:hover{
     transform: scale(1.03);
     transition: 0.5s ease;
+}
+
+.content{
+    margin: 20px 0;
 }
 
 /* Contact Section Designing  */
